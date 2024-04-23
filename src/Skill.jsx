@@ -79,13 +79,13 @@ const Skill=()=>{
         },
     ]
     return(<>
-    <div className="w-full bg-blue-950  " id="skill">
-        <h1 className="text-center underline text-3xl bg-slate-600 py-4 font-bold">SKILLS</h1>
+    <div className="w-full bg-slate-800 p-11 " id="skill">
+        <h1 className="text-center underline text-3xl py-4 font-bold text-white text-opacity-80">SKILLS</h1>
 
-<div className="flex flex-wrap justify-center items-center sm:w-full md:w-[60%]  mx-auto py-5">
+<div className="flex flex-wrap justify-center items-center sm:w-full md:w-[80%]  mx-auto py-5">
     { Images.map((m)=>{
             return(<div className="w-[100px] h-[100px] md:w-[160px] md:h-[130px] flex flex-col justify-center items-center hover:bg-black hover:text-white text-1xl rounded-md"><img className="block w-[65%] h-[60%] md:w-[50%] mx-auto pt-2 rounded-sm transition:700 hover:animate-spin " src={m.img} alt="" />
-            <p className="text-center text-white hover:text-white ">{m.title}</p>
+            <p className="text-center text-[16px] md:text-2xl text-white hover:text-white ">{m.title}</p>
             </div>)
         })}
 

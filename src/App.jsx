@@ -13,6 +13,7 @@ function App() {
 
   return (
     <>
+    <div className='h-auto'>
       <Navbar/>
    <About/>
    <Project/>
@@ -20,6 +21,7 @@ function App() {
    <Resume/>
   <Certificate/>
   <Contact/>
+  </div>
     </>
   )
 }
