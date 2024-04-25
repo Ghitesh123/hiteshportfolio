@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base:"/hiteshportfolio/",
   build:{
-    outDir:"./docs",
+    outDir:'dist',
   }
 })
